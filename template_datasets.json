@@ -1,0 +1,26 @@
+﻿{
+ "maxDatasetCount": 3,
+
+    "datasets": [
+       
+        {   "name": "Connected Vehicle Pilot Open Data Story", 
+            "description": "Calling all ITS and Traffic Safety Researchers - discover CV Pilot Open Data, the research tools and support available, and ways you can access them to support your projects.", 
+            "url": "https://data.transportation.gov/stories/s/Connected-Vehicle-Pilot-Sandbox/hr8h-ufhq", 
+            "image": "/data/images/cvpilots.jpg",
+            "altText": "Texas Department of Transportation logo superimposed on an aerial city view."
+        }, 
+        {   "name": "Work Zone Data Exchange (WZDx) Feed Registry and Archive",
+            "description": "Discover multiple work zone data feeds, datasets, visualizations, and other tools to support your data projects.",
+            "url": "https://data.transportation.gov/stories/s/Work-Zone-Data-Initiative-Partnership/jixs-h7uw",
+            "image": "/data/images/workzone_with_logo.png",
+            "altText": "Cars passing through a road work zone with a visualization of information being sent to cars via work zone machines. Link to explore dataset on data.transportation.gov"
+        },
+        {
+            "name": "Cooperative Automated Research Mobility Applications (CARMA) 2",
+            "description": "Data representing the performance of prototype cooperative automated driving system applications for improving traffic mobility.",
+            "url": "https://data.transportation.gov/Automobiles/Cooperative-Automated-Research-Mobility-Applicatio/dusd-cr84",
+            "image": "/data/images/video.png",
+            "altText": "Link to Cooperative Automated Research Mobility Applications (CARMA) 2 on data.transportation.gov"
+        }
+    ]
+}
