@@ -17,7 +17,7 @@ Vue.component('navigation-top', {
                  <a class="headHovers navBarLinks" href="/">ITS JPO SITE</a> <div style="font-size: 15px; padding:3px 7px 3px 7px; display: inline;">|</div>
                  <a class="headHovers navBarLinks" href="/data">HOME</a> <div style="font-size: 15px; padding:3px 5px 7px 7px; display: inline;">|</div>
                  <a class="headHovers navBarLinks" href="/data/about/">ABOUT</a>
-                 <a class="headHovers navBarLinks" href="https://github.com/usdot-its-jpo-data-portal/microsite" style="float:right; text-align:right;padding:3px 7px 3px 7px;">VIEW THIS PROJECT ON GITHUB</a>
+                 <a class="headHovers navBarLinks" href="https://github.com/usdot-its-jpo-data-portal/datahub-microsite" style="float:right; text-align:right;padding:3px 7px 3px 7px;">VIEW THIS PROJECT ON GITHUB</a>
              </div>`
 } )
 
@@ -117,9 +117,9 @@ Vue.component('search-main', {
                         <img style="height: 180px;" src="/data/images/its_jpo_30_anniversary_logo.png">
                     </div>
                     <div class="TitleText" style="padding-top: 40px;">
-                        <h1 class="searchHeaderText">EXPLORE OUR DATA</h1>
-                        <h3 style="font-size: 18px; font-family: Arial, sans; color: white; text-align: center; margin-top: 10px;">Department of Transportation ITS JPO Data</h3>
-                        <p style="font-size: 18px; font-family: Arial, Tahoma, sans; color: white; text-align: center; margin-bottom: 12px;"> Welcome to the ITS JPO public access point for ITS data</p>
+                        <h1 class="searchHeaderText">ITS DataHub</h1>
+                        <h3 style="font-size: 18px; font-family: Arial, sans; color: white; text-align: center; margin-top: 10px;">The U.S. Department of Transportation ITS JPO's portal for open-access data.</h3>
+                        <p style="font-size: 18px; font-family: Arial, Tahoma, sans; color: white; text-align: center; margin-bottom: 12px;">Use the search bar to discover publicly available ITS JPO data.</p>
                         <label for="mainSearch" class="hidden">Search</label>
                         <input class="mainSearch" id="mainSearch" v-model="query" v-on:keyup.enter="searchSend(query)" v-bind:placeholder="search_placeholder"><button class="searchButton" v-on:click="searchSend(query)">SEARCH</button>
                     </div>
@@ -267,7 +267,7 @@ No warranty or guarantee is made by the U.S. DOT as to the accuracy, reliability
 
 If you choose to not accept, you will be unable to access the data discoverable through ITS DataHub. Please contact data.itsjpo@dot.gov with any questions or concerns.`
             );
-            if (response == true) window.open(address, '_blank');
+            if (response == true) window.location = address;
         },
 
         //===============================================SOCRATA FUNCTION===============================================
@@ -300,7 +300,7 @@ If you choose to not accept, you will be unable to access the data discoverable 
                     }
                     
                     // if string only has year then only print year, otherwise parse into formatting
-                     tempJson["date"] = (items.results[itemCount].resource.createdAt.substring(0,10) < 7) ? items.results[itemCount].resource.createdAt.substring(0,10) : self.formatDate(items.results[itemCount].resource.createdAt);
+                     tempJson["date"] = (items.results[itemCount].resource.updatedAt.substring(0,10) < 7) ? items.results[itemCount].resource.updatedAt.substring(0,10) : self.formatDate(items.results[itemCount].resource.updatedAt);
                     var tagCount;
                     var allTags = [];
                     for (tagCount = 0; tagCount < items.results[itemCount].classification.domain_tags.length; tagCount++) {
@@ -431,7 +431,7 @@ If you choose to not accept, you will be unable to access the data discoverable 
                                         </td>
                                         <td style="text-align: right; width: 30%;">
                                             <p class="resultItemHeader date-access">
-                                                <span class="slightly-bold">Date Added:</span> {{ item.date }}
+                                                <span class="slightly-bold">Date Added:</span> {{ item.date}}
                                                 <br />
                                                 <!--<span class="slightly-bold">Access:</span> {{ item.accessLevelIsPublic}}-->
                                             </p>
