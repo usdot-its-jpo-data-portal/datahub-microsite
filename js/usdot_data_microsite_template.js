@@ -267,7 +267,7 @@ No warranty or guarantee is made by the U.S. DOT as to the accuracy, reliability
 
 If you choose to not accept, you will be unable to access the data discoverable through ITS DataHub. Please contact data.itsjpo@dot.gov with any questions or concerns.`
             );
-            if (response == true) window.location = address;
+            if (response == true) window.open(address, '_blank');
         },
 
         //===============================================SOCRATA FUNCTION===============================================
@@ -300,7 +300,7 @@ If you choose to not accept, you will be unable to access the data discoverable 
                     }
                     
                     // if string only has year then only print year, otherwise parse into formatting
-                     tempJson["date"] = (items.results[itemCount].resource.updatedAt.substring(0,10) < 7) ? items.results[itemCount].resource.updatedAt.substring(0,10) : self.formatDate(items.results[itemCount].resource.updatedAt);
+                     tempJson["date"] = (items.results[itemCount].resource.createdAt.substring(0,10) < 7) ? items.results[itemCount].resource.createdAt.substring(0,10) : self.formatDate(items.results[itemCount].resource.createdAt);
                     var tagCount;
                     var allTags = [];
                     for (tagCount = 0; tagCount < items.results[itemCount].classification.domain_tags.length; tagCount++) {
@@ -431,7 +431,7 @@ If you choose to not accept, you will be unable to access the data discoverable 
                                         </td>
                                         <td style="text-align: right; width: 30%;">
                                             <p class="resultItemHeader date-access">
-                                                <span class="slightly-bold">Date Added:</span> {{ item.date}}
+                                                <span class="slightly-bold">Date Added:</span> {{ item.date }}
                                                 <br />
                                                 <!--<span class="slightly-bold">Access:</span> {{ item.accessLevelIsPublic}}-->
                                             </p>
