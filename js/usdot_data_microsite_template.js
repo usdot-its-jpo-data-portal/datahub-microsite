@@ -98,10 +98,9 @@ Vue.component('search-main', {
         // Finds the total count of data for search bar placeholder text, would need to be modified if different search domain is used
         datasetCount: function () {
             var self = this;
-            $.get(self.socrata_url + '&search_context=' + self.socrata_domain + '&tags=intelligent%20transportation%20systems%20(its)', function (data) {
-                self.totalDataCount = data.results.length;
-                self.search_placeholder = self.totalDataCount.toString() + " data sets and counting!";
-            });
+            self.totalDataCount = this.countNTLDatasets();
+            self.totalDataCount += this.countSocrataDatasets();
+            self.search_placeholder = self.totalDataCount + " data sets and counting!";
         },
             
         //Sets search term and sends it to search html page
@@ -110,6 +109,52 @@ Vue.component('search-main', {
             sessionStorage.setItem("sentSearchTerm", search_query);
             window.location.href = "search.htm";
         },
+        
+        // Calls NTL API to grab json file containing ITS JPO dataset listings from NTL, called on webpage load, function operates sync on load to prevent timing issue
+        countNTLDatasets: function () {
+            $.ajaxSetup({
+                async: false
+            });
+            var itemCountNTL;
+            var NTL_url = "https://rosap.ntl.bts.gov/fedora/export/view/collection/";
+            var NTL_collection = "dot:239"; //Limit results to specific collection
+            var NTL_datelimit = "?from=2018-01-01T00:00:00Z"; //Limit results to before, after or between a specific date range
+            var NTL_rowslimit = "&rows=9999"; //Set number of rows to have returned (NTL default is 100), max 9999
+            var counter = 0;
+
+            $.getJSON(NTL_url + NTL_collection + NTL_datelimit + NTL_rowslimit, function (json) {
+            // $.getJSON("json/NTL.json", function(json) { // TODO: Replace with above line when pushing to production
+                for (itemCountNTL = 0; itemCountNTL < json.response.docs.length; itemCountNTL++) {
+                    //Filter results to pull only dataset types
+                    if (json.response.docs[itemCountNTL]["mods.sm_resource_type"][0] == "Dataset") {
+
+                        // Checks if access level is Public or Restricted
+                        var tempAccessLevel = json.response.docs[itemCountNTL]["rdf.isOpenAccess"][0];
+                        if((tempAccessLevel == "") || tempAccessLevel == "true") counter++;
+                    }
+                }
+            });
+
+            return counter;
+        },
+
+        countSocrataDatasets: function() {
+            var self = this;
+            var counter = 0;
+            $.get(self.socrata_url + '&search_context=' + self.socrata_domain + '&tags=intelligent%20transportation%20systems%20(its)', function (data) {
+                var tempAccessLevel = "";
+                for (itemCount = 0; itemCount < data.results.length; itemCount++) {
+                    for (metadata_element in data.results[itemCount].classification.domain_metadata){
+                        if(data.results[itemCount].classification.domain_metadata[metadata_element].key == "Common-Core_Public-Access-Level"){
+                            tempAccessLevel  = data.results[itemCount].classification.domain_metadata[metadata_element].value;
+                        }
+                    }
+                    // Counts only if access level is public
+                    if(tempAccessLevel == "public" || tempAccessLevel == "Public") counter++;
+                }
+            });
+            return counter;
+        }
 
     },
     template: ` <div>
@@ -149,12 +194,15 @@ Vue.component('search-results', {
         //Gets the search results for a search query
         search: function (search_query) {
             var self = this;
-                self.query = search_query;
-                self.searchResults = [];
-                //Additional or different search domains should be added here
-                self.addSocratatoSearchResult(search_query);
-                self.addNTLtoSearchResult(search_query);
-            document.getElementById("mainSearch").value = search_query;
+            self.query = search_query;
+            self.searchResults = [];
+
+            //Additional or different search domains should be added here
+            self.addSocratatoSearchResult(search_query);
+            self.addNTLtoSearchResult(search_query);
+            var mainSearchElement = document.getElementById("mainSearch");
+            if (mainSearchElement != null)  mainSearchElement.value = search_query;
+            // document.getElementById("mainSearch").value = search_query;
         },
 
         onSearchResults: function (){
@@ -189,7 +237,7 @@ Vue.component('search-results', {
             var counter = 0;
 
             $.getJSON(NTL_url + NTL_collection + NTL_datelimit + NTL_rowslimit, function (json) {
-            // $.getJSON("json/NTL.json", function(json) {
+            // $.getJSON("json/NTL.json", function(json) { // TODO: Replace with above line when pushing to production
                 for (itemCountNTL = 0; itemCountNTL < json.response.docs.length; itemCountNTL++) {
                     //Filter results to pull only dataset types
                     if (json.response.docs[itemCountNTL]["mods.sm_resource_type"][0] == "Dataset"){
@@ -208,6 +256,7 @@ Vue.component('search-results', {
                         }
                         else{
                             tempJson["accessLevelIsPublic"] = "Restricted";
+                            continue;
                         }
 
                         //Read dataset tags, add Research Results button tag to all NTL results
@@ -278,7 +327,10 @@ If you choose to not accept, you will be unable to access the data discoverable 
             var self = this;
             var tempAccessLevel = "";
             var metadata_element;
-            $.get(self.socrata_url + search_query + '&search_context=' + self.socrata_domain + '&tags=intelligent%20transportation%20systems%20(its)', function (items) {
+            var socrata_api_url = // search_query == "" ? 
+                // self.socrata_url + '&search_context=' + self.socrata_domain + '&tags=intelligent%20transportation%20systems%20(its)' : 
+                self.socrata_url + search_query + '&search_context=' + self.socrata_domain + '&tags=intelligent%20transportation%20systems%20(its)';
+            $.get(socrata_api_url, function (items) {
                 for (itemCount = 0; itemCount < items.results.length; itemCount++) {
                     var tempJson = {};
                     tempJson["name"] = items.results[itemCount].resource.name;
@@ -288,7 +340,6 @@ If you choose to not accept, you will be unable to access the data discoverable 
                         if(items.results[itemCount].classification.domain_metadata[metadata_element].key == "Common-Core_Public-Access-Level"){
                             tempAccessLevel  = items.results[itemCount].classification.domain_metadata[metadata_element].value;
                         }
-                        
                     }
                     //tempAccessLevel  = items.results[itemCount].classification.domain_metadata[3].value;
                     if(tempAccessLevel == "public" || tempAccessLevel == "Public"){
