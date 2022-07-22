@@ -188,6 +188,12 @@ Vue.component('search-results', {
     },
     created: function(){
         this.loadNTL(); // Loads the initial static file of NTL Data
+
+        // Removes any 'null' entry in the search bar
+        if (this.query == "" || this.query == "null") {
+            this.query = "";
+            sessionStorage.setItem("sentSearchTerm", "");
+        }
         this.search(this.query);
     },
     methods: {
@@ -202,7 +208,6 @@ Vue.component('search-results', {
             self.addNTLtoSearchResult(search_query);
             var mainSearchElement = document.getElementById("mainSearch");
             if (mainSearchElement != null)  mainSearchElement.value = search_query;
-            // document.getElementById("mainSearch").value = search_query;
         },
 
         onSearchResults: function (){
