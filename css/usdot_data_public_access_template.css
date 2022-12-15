@@ -22,6 +22,122 @@ body {
 
 }
 
+#metadataDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.metadataContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-left:thick solid #00B050;
+  padding-left: 10px;
+  margin-left: 50px;
+}
+
+.exampleContent {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  margin-left: 20%;
+}
+
+.exampleContent h4 {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 18px;
+  color: white;
+  position: relative;
+  padding-left: 20px;
+}
+
+.metadataSection {
+  position: relative;
+}
+
+.metadataIcon {
+  position: absolute;
+  top: -10px;
+  left: -35px;
+  width: 5%;
+}
+
+#metadataDiv p {
+  font-size: 16px;
+  padding-left:20px;
+}
+
+.exampleText {
+  color:white;
+}
+
+
+#metadataDiv h2 {
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  border-bottom: none;
+  font-family: Arial;
+}
+
+#metadataDiv h5 {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 18px;
+  color: #2F5496;
+  position: relative;
+  padding-left: 20px;
+}
+
+#metadataDiv table {
+  background: white;
+  width: 60%;
+  border: 3px solid #BFBFBF;
+  margin-left:3%;
+  -webkit-box-shadow: 0px -2px 22px 0px rgba(0, 0, 0, 0.96);
+  -moz-box-shadow:    0px -2px 22px 0px rgba(0, 0, 0, 0.96);
+  box-shadow:         0px -2px 22px 0px rgba(0, 0, 0, 0.96);
+}
+
+#metadataDiv th,td {
+  border: 1px solid #BFBFBF;
+  padding-left: 10px !important;
+}
+
+#metaexampleDiv {
+  background-color: #152350;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: -moz-available;
+  width: -webkit-fill-available;
+}
+
+a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: initial;
+  width: 100%;
+  box-shadow: 0px -2px 22px 0px rgba(0, 0, 0, 0.96);
+  height: 100%;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 32px;
+  padding:0px 40px;
+}
+
+#metadataButtonDiv {
+  margin: auto;
+  width: fit-content;
+  padding-top: 50px;
+  height: 105px;
+}
+
 /* div type to prevent movement on resize */
 #dataset-wrapper, #search-wrapper {
 
@@ -72,7 +188,6 @@ p.headingFont{
         rgba(35, 91, 122, 0.6);
     height: 40px;
     padding: 0px 38px 0 38px;
-    margin-bottom: 50px;
     text-align: left;
 
 }
@@ -218,3 +333,390 @@ p.headingFont{
   font-size: 14px;
   margin-left: 5px;
 }
+
+
+/* CSS Document */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Overall Page styles ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+#pageContent.codehub .codehub-content {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#pageContent.codehub .registration-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pageContent.codehub h1,
+#pageContent.codehub h2,
+#pageContent.codehub p,
+#pageContent.codehub li,
+#pageContent.codehub button,
+#page-left-menu li a {
+    font-family: Roboto, Arial, Helvetica, sans-serif !important;
+}
+
+#page-left-menu > li.leftNavItem > a {
+    font-family: Roboto, Arial, Helvetica, sans-serif !important;
+    font-size: 13px;
+}
+
+#pageContent.codehub p,
+#pageContent.codehub li {
+    font-size: .9rem;
+    line-height: 21px;
+}
+
+#pageContent.codehub a {
+    text-decoration: underline;
+    cursor: pointer;
+}
+#pageContent.codehub a:hover {
+    color: #033c62
+}
+
+#pageContent.codehub p,
+#pageContent.codehub li,
+#pageContent.codehub h2 span.gray-text {
+    color: #4b5051 !important;
+}
+
+/* Set uniform blue color = #2e72a1 */
+#pageContent.codehub a,
+#pageContent.codehub h2 span.accent-color-text,
+#page-left-menu .leftNavItem a {
+    color: #2e72a1;
+}
+.left_nav h3 {
+    background-color: #2e72a1;
+}
+#resources_menu li.leftNavItem.child-menu-item.active a {
+    border-left-color: #2e72a1;
+}
+
+#pageContent.codehub .external-link-icon {
+    margin-left: 4px;
+    margin-bottom: -1px;
+}
+#pageContent.codehub .external-link-icon.inline {
+    margin-left: 2px;
+}
+
+#pageContent.codehub .lead-paragraph.bottom-border {
+    margin-left: -10px;
+    margin-right: -10px;
+    border-bottom: 1px solid #CACFD0;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#pageContent.codehub h2 {
+    line-height: 28px;
+    font-size: 21px;
+    padding-bottom: 0px;
+    border-bottom: none; 
+}
+#pageContent.codehub h2 + p {
+    margin-top: 9px;
+}
+
+#pageContent.codehub li {
+    list-style-type: disc;
+}
+
+#pageContent.codehub p.p_reduce-bottom-margin {
+    margin-bottom: 8px;
+}
+#pageContent.codehub p.p_reduce-top-margin {
+    margin-top: 8px;
+}
+
+#pageContent.codehub ul.ul_remove-spacing_above-and-below {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    list-style: inside;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Banner styles ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+#pageContent.codehub .h1wrapper_outer {
+    background: #163B58;
+    height: 50px;
+    margin: inherit;
+    margin-bottom: 10px;
+}
+
+#pageContent.codehub.homepage .h1wrapper_outer {
+    height: 88px;
+}
+
+#pageContent.codehub .h1wrapper_inner {
+    color: #ffffff;
+    background-image: url("../images/20_opacity.svg");
+    background-position: 47px -80px, left top;
+    background-size: cover;
+    width: 100%;
+    z-index: 0;
+    margin: inherit;
+    height: 50px;
+}
+
+#pageContent.codehub.homepage .h1wrapper_inner {
+    height: 88px;
+}
+
+h1#codehub-page-heading {
+    font-size: 25px;
+    font-weight: bold; 
+    letter-spacing: 1.2px;
+    margin: inherit;
+    padding-top: 10px;
+    
+    padding-left: 10px;
+    display: flex; 
+    align-items: center; 
+    padding-bottom: 10px;
+}
+
+.homepage h1#codehub-page-heading {
+    font-size: 41px;
+    letter-spacing: 2.8px;
+    padding-top: 19px;
+    padding-bottom: 20px;   
+}
+.homepage h1#codehub-page-heading img {
+    width: 51px; 
+    height: auto; 
+    margin-right: 15px;
+}
+/* ------------------------------ end Banner styles */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Left Menu styles ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+#resources_menu ul {
+    margin-right: 8px;
+}
+
+#resources_menu .left_nav ul li {
+    margin-right: 0px;
+}
+
+#resources_menu li.leftNavItem {
+    padding: 8px 3px;
+    margin-right: 0px;
+    border-bottom: 1px solid #9ba2a3; 
+}
+
+#resources_menu li.leftNavItem.child-menu-item {
+    margin-left: 20px;
+}
+
+#resources_menu li.leftNavItem.child-menu-item a {
+    font-weight: normal;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px !important;
+    border-left: solid 3px #efefef;
+}
+#resources_menu li.leftNavItem.child-menu-item.last-menu {
+    margin-bottom: 1px;
+    border-bottom: none;
+}
+#resources_menu li.leftNavItem.next-item {
+    border-top: 1px solid #9ba2a3;
+}
+
+#pageContent.codehub.code-repositories .individual_repo_container {
+    border-bottom: 1px solid #cfcfcf;
+    display: inline-block;
+}
+#pageContent.codehub.code-repositories .category_group .individual_repo_container:last-of-type {
+    border-bottom: none;
+    padding-bottom: 35px;
+}
+
+#resources_menu li.leftNavItem.codehub-menu-home,
+#page-left-menu li.leftNavItem.codehub-menu-home {
+    border-bottom: none !important;
+    padding-bottom: 2px !important; 
+}
+
+/* ------------------------------ end Left Menu styles */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ codehub Footer styles ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+#codehub-footer {
+    display: inline-block;
+    width: 100%;
+    height: 17px;
+    color: white;
+    background-color: #113e7e;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#codehub-footer span {
+    padding-right: 12px;
+    padding-left: 12px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#codehub-footer span a {
+    color: white !important;
+}
+/* ------------------------------ end Footer styles */
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Code Repositories Page styles ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+#pageContent.codehub p.repository-title {
+    margin-bottom: 0px;
+}
+#pageContent.codehub p.repository-title a {
+    font-size: 18px;
+    font-weight: bolder;
+}
+#pageContent.codehub p.repository-description {
+    margin-top: 12px; 
+}
+
+#pageContent.codehub a.read-more {
+    font-size: smaller;
+}
+
+ul#category-jump-links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+    padding-left: 0px;
+}
+#pageContent.codehub #category-jump-links .category-jump-link {
+    font-size: 16px;
+    line-height: 25px;
+    list-style-type: none;
+    list-style-image: none;
+}
+
+#outer_repos_container h2.category-header {
+    border-top: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
+    border-color: #CACFD0;
+    margin-left: -10px;
+    padding-left: 10px;
+    margin-right: -10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    background-color: #eeefef;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: #163b58;
+}
+/* ------------------------------ end Code Repositories Page styles */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Repository Registration Page styles ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.repository-registration-step {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+button#download-repository-form {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    padding: 9px 0px;
+    border: 1px solid #4b5051;
+    border-color: #224b59 #1f4451 #193843;
+    border-radius: 4px;
+    background: #113e7e;
+    background: -webkit-linear-gradient(top,#1fa6c1,#113e7e);
+    background: linear-gradient(to bottom, #1fa6c1,#113e7e);
+    box-shadow: 0 1px 0 rgb(255 255 255 / 40%) inset;
+    cursor: pointer;
+}
+    
+button#download-repository-form:hover,
+button#download-repository-form:focus,
+button#download-repository-form:active {
+    border-color: #001826 #00111E #001F2A;
+    background: #000B4B;
+    background: -webkit-linear-gradient(top,#113e7e,#000B4B);
+    background: linear-gradient(to bottom,#113e7e,#000B4B);
+}
+button#download-repository-form:active {
+    box-shadow: 0 2px 0 rgb(0 0 0) inset;
+}
+
+button#download-repository-form a {
+    color: white !important;
+    padding: 9px 16px;
+    text-decoration: none !important;
+}
+
+button#download-repository-form img.download-icon {
+    width: 14px;
+    height: auto;
+    margin-bottom: -2px;
+    margin-left: 2px;
+}
+
+#pageContent.codehub h2 img.download-icon{
+    width: 16px;
+    height: auto;
+    margin-bottom: -4px;
+    margin-left: 2px;
+}
+
+.flex-area_row {
+    display: inline-flex;
+}
+.flex-area_row {
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin-bottom: 25px;
+}
+.flex-area_column {
+    flex-direction: column;
+    
+}
+.flex-area_row .flex-area_column:nth-of-type(1) {
+    flex: 10 1 70%;
+    flex: 8 1 65%;
+}
+.flex-area_row .flex-area_column:nth-of-type(2) {
+    flex: 4 1 25%; 
+    padding:10px;
+}
+img.download-icon {
+    width: 13px;
+    height: auto;
+    margin-bottom: -2px;
+    margin-left: 3px;
+}
+/* ------------------------------ end Repository Registration Page styles */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ FAQs Page styles ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+p.faqs-question {
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+p.faqs-answer {
+    margin-top: 4px;
+    margin-bottom: 24px;
+}
+/* ------------------------------ end Code Repositories Page styles */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Additional Resources Page styles ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+#pageContent.codehub.additional-resources h2 {
+    padding-top: 2px;
+    margin-top: 15px;
+}
+/* ------------------------------ end Additional Resources Page styles */

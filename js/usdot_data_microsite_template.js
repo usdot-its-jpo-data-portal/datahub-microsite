@@ -16,7 +16,8 @@ Vue.component('navigation-top', {
     template:`<div class="navigation-bar navBarLinks">
                  <a class="headHovers navBarLinks" href="/">ITS JPO SITE</a> <div style="font-size: 15px; padding:3px 7px 3px 7px; display: inline;">|</div>
                  <a class="headHovers navBarLinks" href="/data">HOME</a> <div style="font-size: 15px; padding:3px 5px 7px 7px; display: inline;">|</div>
-                 <a class="headHovers navBarLinks" href="/data/about/">ABOUT</a>
+                 <a class="headHovers navBarLinks" href="/data/about">ABOUT</a> <div style="font-size: 15px; padding:3px 5px 7px 7px; display: inline;">|</div>
+                 <a class="headHovers navBarLinks" href="/data/datahub-submission/">DATA SUBMISSION</a>
                  <a class="headHovers navBarLinks" href="https://github.com/usdot-its-jpo-data-portal/datahub-microsite" style="float:right; text-align:right;padding:3px 7px 3px 7px;">VIEW THIS PROJECT ON GITHUB</a>
              </div>`
 } )
@@ -98,10 +99,9 @@ Vue.component('search-main', {
         // Finds the total count of data for search bar placeholder text, would need to be modified if different search domain is used
         datasetCount: function () {
             var self = this;
-            $.get(self.socrata_url + '&search_context=' + self.socrata_domain + '&tags=intelligent%20transportation%20systems%20(its)', function (data) {
-                self.totalDataCount = data.results.length;
-                self.search_placeholder = self.totalDataCount.toString() + " data sets and counting!";
-            });
+            self.totalDataCount = this.countNTLDatasets();
+            self.totalDataCount += this.countSocrataDatasets();
+            self.search_placeholder = self.totalDataCount + " data sets and counting!";
         },
             
         //Sets search term and sends it to search html page
@@ -110,6 +110,52 @@ Vue.component('search-main', {
             sessionStorage.setItem("sentSearchTerm", search_query);
             window.location.href = "search.htm";
         },
+        
+        // Calls NTL API to grab json file containing ITS JPO dataset listings from NTL, called on webpage load, function operates sync on load to prevent timing issue
+        countNTLDatasets: function () {
+            $.ajaxSetup({
+                async: false
+            });
+            var itemCountNTL;
+            var NTL_url = "https://rosap.ntl.bts.gov/fedora/export/view/collection/";
+            var NTL_collection = "dot:239"; //Limit results to specific collection
+            var NTL_datelimit = "?from=2018-01-01T00:00:00Z"; //Limit results to before, after or between a specific date range
+            var NTL_rowslimit = "&rows=9999"; //Set number of rows to have returned (NTL default is 100), max 9999
+            var counter = 0;
+
+            $.getJSON(NTL_url + NTL_collection + NTL_datelimit + NTL_rowslimit, function (json) {
+            // $.getJSON("json/NTL.json", function(json) { // TODO: Replace with above line when pushing to production
+                for (itemCountNTL = 0; itemCountNTL < json.response.docs.length; itemCountNTL++) {
+                    //Filter results to pull only dataset types
+                    if (json.response.docs[itemCountNTL]["mods.sm_resource_type"][0] == "Dataset") {
+
+                        // Checks if access level is Public or Restricted
+                        var tempAccessLevel = json.response.docs[itemCountNTL]["rdf.isOpenAccess"][0];
+                        if((tempAccessLevel == "") || tempAccessLevel == "true") counter++;
+                    }
+                }
+            });
+
+            return counter;
+        },
+
+        countSocrataDatasets: function() {
+            var self = this;
+            var counter = 0;
+            $.get(self.socrata_url + '&search_context=' + self.socrata_domain + '&tags=intelligent%20transportation%20systems%20(its)', function (data) {
+                var tempAccessLevel = "";
+                for (itemCount = 0; itemCount < data.results.length; itemCount++) {
+                    for (metadata_element in data.results[itemCount].classification.domain_metadata){
+                        if(data.results[itemCount].classification.domain_metadata[metadata_element].key == "Common-Core_Public-Access-Level"){
+                            tempAccessLevel  = data.results[itemCount].classification.domain_metadata[metadata_element].value;
+                        }
+                    }
+                    // Counts only if access level is public
+                    if(tempAccessLevel == "public" || tempAccessLevel == "Public") counter++;
+                }
+            });
+            return counter;
+        }
 
     },
     template: ` <div>
@@ -143,18 +189,26 @@ Vue.component('search-results', {
     },
     created: function(){
         this.loadNTL(); // Loads the initial static file of NTL Data
+
+        // Removes any 'null' entry in the search bar
+        if (this.query == "" || this.query == "null") {
+            this.query = "";
+            sessionStorage.setItem("sentSearchTerm", "");
+        }
         this.search(this.query);
     },
     methods: {
         //Gets the search results for a search query
         search: function (search_query) {
             var self = this;
-                self.query = search_query;
-                self.searchResults = [];
-                //Additional or different search domains should be added here
-                self.addSocratatoSearchResult(search_query);
-                self.addNTLtoSearchResult(search_query);
-            document.getElementById("mainSearch").value = search_query;
+            self.query = search_query;
+            self.searchResults = [];
+
+            //Additional or different search domains should be added here
+            self.addSocratatoSearchResult(search_query);
+            self.addNTLtoSearchResult(search_query);
+            var mainSearchElement = document.getElementById("mainSearch");
+            if (mainSearchElement != null)  mainSearchElement.value = search_query;
         },
 
         onSearchResults: function (){
@@ -189,7 +243,7 @@ Vue.component('search-results', {
             var counter = 0;
 
             $.getJSON(NTL_url + NTL_collection + NTL_datelimit + NTL_rowslimit, function (json) {
-            // $.getJSON("json/NTL.json", function(json) {
+            // $.getJSON("json/NTL.json", function(json) { // TODO: Replace with above line when pushing to production
                 for (itemCountNTL = 0; itemCountNTL < json.response.docs.length; itemCountNTL++) {
                     //Filter results to pull only dataset types
                     if (json.response.docs[itemCountNTL]["mods.sm_resource_type"][0] == "Dataset"){
@@ -208,6 +262,7 @@ Vue.component('search-results', {
                         }
                         else{
                             tempJson["accessLevelIsPublic"] = "Restricted";
+                            continue;
                         }
 
                         //Read dataset tags, add Research Results button tag to all NTL results
@@ -278,7 +333,10 @@ If you choose to not accept, you will be unable to access the data discoverable 
             var self = this;
             var tempAccessLevel = "";
             var metadata_element;
-            $.get(self.socrata_url + search_query + '&search_context=' + self.socrata_domain + '&tags=intelligent%20transportation%20systems%20(its)', function (items) {
+            var socrata_api_url = // search_query == "" ? 
+                // self.socrata_url + '&search_context=' + self.socrata_domain + '&tags=intelligent%20transportation%20systems%20(its)' : 
+                self.socrata_url + search_query + '&search_context=' + self.socrata_domain + '&tags=intelligent%20transportation%20systems%20(its)';
+            $.get(socrata_api_url, function (items) {
                 for (itemCount = 0; itemCount < items.results.length; itemCount++) {
                     var tempJson = {};
                     tempJson["name"] = items.results[itemCount].resource.name;
@@ -288,7 +346,6 @@ If you choose to not accept, you will be unable to access the data discoverable 
                         if(items.results[itemCount].classification.domain_metadata[metadata_element].key == "Common-Core_Public-Access-Level"){
                             tempAccessLevel  = items.results[itemCount].classification.domain_metadata[metadata_element].value;
                         }
-                        
                     }
                     //tempAccessLevel  = items.results[itemCount].classification.domain_metadata[3].value;
                     if(tempAccessLevel == "public" || tempAccessLevel == "Public"){
@@ -593,6 +650,134 @@ Vue.component('category-search', {
                 </div>
             </div>
         </div>`
+})
+
+Vue.component('metadata-guidelines', {
+    template: `
+        <div id='metadataDiv'>
+            <h3 class="headingFont" style="color: #152350; padding-top: 3%;"><b>DataHub Metadata Requirements</b></h3>
+            <div class="lead-paragraph metadataSection flex-area_row">
+                <p>The ITS DataHub is a web-system designed for storing and making any open, 
+                non-personally identifiable data generated by the ITS Joint Program Office (JPO) funded projects discoverable. 
+                The information below is required for a project to be posted to the ITS DataHub if it has been approved by the ITS JPO Data Program.
+                If you have a project that you would like to request having its data included in the ITS DataHub, please contact the ITS JPO Data Program by emailing
+                <a href='mailto:data.itsjpo@dot.gov' style="color:navy;">data.itsjpo@dot.gov</a> with the name of your project, points of contact, and information on how the 
+                project is funded (JPO, FHWA, etc.). If you have any questions, please also email <a href='mailto:data.itsjpo@dot.gov' style="color:navy;">data.itsjpo@dot.gov</a>.</p>
+            </div>
+            <div class="metadataContent">
+                <div class="lead-paragraph metadataSection flex-area_row">
+                    <img class="metadataIcon" alt="Green circle icon" src="/data/images/icons/greencircle.png">
+                    <h5 class="headingFont">Outline of Data Provided</h5>
+                    <p class="metadataText">This is the area where the overall outline of the data is presented. 
+                    Is the data being provided as a one-time action or will it be provided in a continuous fashion? 
+                    How large is the data being provided? If it’s a one-time action and if the data provided is in multiple files, 
+                    please outline the hierarchy of the data (e.g., is there a single ‘main’ file and multiple support files, 
+                    or are there multiple main outputs?) If it is not clear from the file name, please provide the exact file names here 
+                    and a one-sentence description of the file’s purpose,. This would help the ITS JPO Data Team decide the best way to 
+                    ingest and publicize the data. If you have documentation covering this information (i.e., Data Management Plan), 
+                    please provide it instead of the description.</p>
+                </div>
+                <div class="lead-paragraph metadataSection flex-area_row">
+                    <img class="metadataIcon" alt="Green circle icon" src="/data/images/icons/greencircle.png">
+                    <h5 class="headingFont">Description</h5>
+                    <p class="metadataText">This is the area with a brief description of the data being made available and a background on the project that 
+                    generated the data. If multiple files are being provided as part of a single dataset, provide a brief description 
+                    on how they are related to each other, with additional detail on the ‘main’ dataset. Please provide sufficient
+                     detail and information for a third party to easily understand the submitted data.</p>
+                </div>
+                <div class="lead-paragraph metadataSection flex-area_row">
+                    <img class="metadataIcon" alt="Green circle icon" src="/data/images/icons/greencircle.png">
+                    <h5 class="headingFont">Contact Name and Email</h5>
+                    <p class="metadataText">Please provide a name and email address of a point of contact who is a knowledgeable person on the dataset. 
+                    This does not obligate the contact person to answer these or any other questions, but it would help us to track the 
+                    impact of any subsequent work as a result of reusing your submitted data for additional research. It may be best 
+                    practice to include a general office or organization email, along with a  name of an individual who is knowledgeable 
+                    about the project/data.</p>
+                </div>
+                <div class="lead-paragraph metadataSection flex-area_row">
+                    <img class="metadataIcon" alt="Green circle icon" src="/data/images/icons/greencircle.png">
+                    <h5 class="headingFont">Geographic Coverage</h5>
+                    <p class="metadataText">This is a  general description of the area where the data are collected, such as “I-90”, or “Leesburg, VA”, or
+                     “Florida.” The more detail/specificity you provide, the better it is for other users to understand the location(s) 
+                     where the data were collected.</p>
+                </div>
+            </div>
+            <div class="lead-paragraph metadataSection flex-area_row" style="margin-left: 50px;padding: 10px;">
+                    <img class="metadataIcon" alt="Green circle icon" src="/data/images/icons/greencircle.png" style="left: -28px">
+                    <h5 class="headingFont">Column Descriptions</h5>
+                    <p  class="metadataText">For each ‘main’ dataset, please provide brief descriptions of each column. 
+                    If you have a data dictionary in another file type such as a spreadsheet, CSV, or metadata file, please provide it, 
+                    and record the exact name of the file here. Please be as descriptive as possible to help others understand your data.</p>
+            </div>
+            <img class="contentIndicator" style="top: -40px; left:0;" src="/data/images/icons/ContentIndicator.png" alt="Content Indicator Arrow"/>
+        <div id ="metaexampleDiv">
+            <h2>Example</h2>
+            <div class="exampleContent">
+                <div class="lead-paragraph metadataSection flex-area_row">
+                    <h4>Outline of Data Provided</h4>
+                    <p class="exampleText">Main dataset is a 5 GB csv file of Basic Safety Messages (bsm_output.csv). Support files are also included that describe the weather conditions (weather.csv, 500 MB) and congestion as measures by other sensors (congestion.pnf, 1.3 GB). Data will be provided one-time as a full package of results from the project.</p>
+                </div>
+                <div class="lead-paragraph metadataSection flex-area_row">
+                    <h4>Description</h4>
+                    <p class="exampleText">This dataset contains data collected from the Connected Vehicle (CV) prototype demonstration conducted on I-81 in Virginia. 53 vehicles and 21 trucks that regularly traverse the highway were equipped with aftermarket on-board units (OBUs) to generate Basic Safety Messages (BSMs). The collected BSMs were then anonymized before being included here.</p>
+                </div>
+                <div class="lead-paragraph metadataSection flex-area_row">
+                    <h4>Contact Name and Email</h4>
+                    <p class="exampleText">John Doe, jdoe@gmail.com</p>
+                </div>
+                <div class="lead-paragraph metadataSection flex-area_row">
+                    <h4>Geographic Coverage</h4>
+                    <p class="exampleText">I-81 from Winchester, VA to Front Royal, VA</p>
+                </div>
+                <div class="metadataSection flex-area_row">
+                    <h4>Column Descriptions</h4>
+                    <table>
+                        <tr>
+                            <th>Column Name</th>
+                            <th>Description</th>
+                        </tr>
+                        <tr>
+                            <td>Lat</td>
+                            <td>Latitude of BSM</td>
+                        </tr>
+                        <tr>
+                            <td>Long</td>
+                            <td>Longitude of BSM</td>
+                        </tr>
+                        <tr>
+                            <td>Speed</td>
+                            <td>Speed of vehicle in MPH</td>
+                        </tr>
+                        <tr>
+                            <td>Acceleration</td>
+                            <td>Lateral acceleration of vehicle in m/s^2</td>
+                        </tr>
+                        <tr>
+                            <td>Heading</td>
+                            <td>Heading of vehicle in degrees (0-360)</td>
+                        </tr>
+                        <tr>
+                            <td>Steering_Angle</td>
+                            <td>Angle of steering column</td>
+                        </tr>
+                        <tr>
+                            <td>partII_width</td>
+                            <td>(Optional) width of vehicle</td>
+                        </tr>
+                        <tr>
+                            <td>partII_length</td>
+                            <td>(Optional) length of vehicle</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            
+            <div id="metadataButtonDiv">
+             <a href="/data/DataHubMetadataTemplate.docx" class="button">DOWNLOAD THE TEMPLATE HERE</a>
+            </div>
+        </div>
+    `
+
 })
 
 var myVue = new Vue({
