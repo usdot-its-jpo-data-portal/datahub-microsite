@@ -6,20 +6,20 @@
         {   "name": "Connected Vehicle Pilot Open Data Story", 
             "description": "Calling all ITS and Traffic Safety Researchers - discover CV Pilot Open Data, the research tools and support available, and ways you can access them to support your projects.", 
             "url": "https://data.transportation.gov/stories/s/Connected-Vehicle-Pilot-Sandbox/hr8h-ufhq", 
-            "image": "/data/images/cvpilots.jpg",
+            "image": "/data/images/cvpilots.webp",
             "altText": "Texas Department of Transportation logo superimposed on an aerial city view."
         }, 
         {   "name": "Work Zone Data Exchange (WZDx) Feed Registry and Archive",
             "description": "Discover multiple work zone data feeds, datasets, visualizations, and other tools to support your data projects.",
             "url": "https://data.transportation.gov/stories/s/Work-Zone-Data-Initiative-Partnership/jixs-h7uw",
-            "image": "/data/images/workzone_with_logo.png",
+            "image": "/data/images/workzone_with_logo.webp",
             "altText": "Cars passing through a road work zone with a visualization of information being sent to cars via work zone machines. Link to explore dataset on data.transportation.gov"
         },
         {
             "name": "Next Generation Simulation (NGSIM) Open Data",
             "description": "A brief overview of the NGSIM program data collection as well as what types of NGSIM data are available on ITS DataHub.",
             "url": "https://data.transportation.gov/stories/s/i5zb-xe34",
-            "image": "/data/images/US-101-Processed1.gif",
+            "image": "/data/images/US-101-Processed1.webp",
             "altText": "Link to Next Generation Simulation (NGSIM) Open Data on data.transportation.gov"
         }
     ]

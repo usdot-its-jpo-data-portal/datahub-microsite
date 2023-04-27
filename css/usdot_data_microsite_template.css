@@ -144,7 +144,7 @@ button:hover {
           rgba(35, 91, 122, 0.4),
           rgba(35, 91, 122, 0.6)
         ),
-      url('../images/header_background.png');
+      url('../images/header_background.webp');
     background-size: 100% 100%;
     /*background-repeat: no-repeat;
     background-position: center;*/
