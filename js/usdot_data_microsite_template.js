@@ -36,9 +36,9 @@ Vue.component('microsite-footer',{
     },
     template:   `<div><div id="footerInfo" style="padding-top: 20px;">
                     <div style="display:inline; font-size:50px; font-weight:100; text-align:center">
-                        <img src="/data/images/icons/dot_logo.webp" width=160 height=30 style="margin-right: 3px;" alt="DOT Logo" /> 
+                        <img src="/data/images/icons/dot_logo.png" width=160 height=30 style="margin-right: 3px;" alt="DOT Logo" /> 
                         |
-                        <img src="/data/images/icons/ITS_JPO.webp" width=176 height=27 alt="ITS JPO Logo" /> 
+                        <img src="/data/images/icons/ITS_JPO.png" width=176 height=27 alt="ITS JPO Logo" /> 
                     </div>
                     <p style="font-weight: bold;">Questions? Contact Us</p>
                     <a id="contactEmail" style="color:white; font-size: 12px;" href="mailto:data.itsjpo@dot.gov">{{ contact_email }}</a>
@@ -160,7 +160,7 @@ Vue.component('search-main', {
     },
     template: ` <div>
                     <div style="width: 33%; position: absolute; padding-top: 40px;">
-                        <img width=179.9 height=180 src="/data/images/its_jpo_30_anniversary_logo.webp">
+                        <img width=179.9 height=180 src="/data/images/its_jpo_30_anniversary_logo.png">
                     </div>
                     <div class="TitleText" style="padding-top: 40px;">
                         <h1 class="searchHeaderText">ITS DataHub</h1>
@@ -574,8 +574,8 @@ If you choose to not accept, you will be unable to access the data discoverable 
         }
     },
     template: `<div id="DatasetDiv" style="text-align: center;">
-            <img class="contentIndicator" width=69 height=69 style="top: -30px" src="/data/images/icons/ContentIndicator.webp" alt="Content Indicator Arrow"/>
-            <div id="FeaturedDataArea" style="background-image: url('images/CategoryBackground.webp');">
+            <img class="contentIndicator" width=69 height=69 style="top: -30px" src="/data/images/icons/ContentIndicator.png" alt="Content Indicator Arrow"/>
+            <div id="FeaturedDataArea" style="background-image: url('images/CategoryBackground.png');">
                 <h3 class="headingFont" style="color: #152350; padding-top: 3%;"><b>FEATURED DATA SETS</b></h3>
                 <div style="display: flex; margin-left: 8%; margin-right: 8%;" id="datasetArea">
                     <div id="bulmaDatasetFDS" class="columns is-multiline">
@@ -633,7 +633,7 @@ Vue.component('category-search', {
     },
     template: `
         <div id="categoryDiv">
-            <img class="contentIndicator" width=69 height=69 style="top: -57px" src="/data/images/icons/ContentIndicator.webp" alt="Content Indicator Arrow"/>
+            <img class="contentIndicator" width=69 height=69 style="top: -57px" src="/data/images/icons/ContentIndicator.png" alt="Content Indicator Arrow"/>
             <div id="CategoryAreaHead">
                 <h3 class="headingFont" style="color: white"><b>POPULAR DATA SET TOPICS</b></h3>
             </div>
@@ -666,7 +666,7 @@ Vue.component('metadata-guidelines', {
             </div>
             <div class="metadataContent">
                 <div class="lead-paragraph metadataSection flex-area_row">
-                    <img class="metadataIcon" width=45 height=45 alt="Green circle icon" src="/data/images/icons/greencircle.webp">
+                    <img class="metadataIcon" width=45 height=45 alt="Green circle icon" src="/data/images/icons/greencircle.png">
                     <h5 class="headingFont">Outline of Data Provided</h5>
                     <p class="metadataText">This is the area where the overall outline of the data is presented. 
                     Is the data being provided as a one-time action or will it be provided in a continuous fashion? 
@@ -678,7 +678,7 @@ Vue.component('metadata-guidelines', {
                     please provide it instead of the description.</p>
                 </div>
                 <div class="lead-paragraph metadataSection flex-area_row">
-                    <img class="metadataIcon" width=45 height=45 alt="Green circle icon" src="/data/images/icons/greencircle.webp">
+                    <img class="metadataIcon" width=45 height=45 alt="Green circle icon" src="/data/images/icons/greencircle.png">
                     <h5 class="headingFont">Description</h5>
                     <p class="metadataText">This is the area with a brief description of the data being made available and a background on the project that 
                     generated the data. If multiple files are being provided as part of a single dataset, provide a brief description 
@@ -686,7 +686,7 @@ Vue.component('metadata-guidelines', {
                      detail and information for a third party to easily understand the submitted data.</p>
                 </div>
                 <div class="lead-paragraph metadataSection flex-area_row">
-                    <img class="metadataIcon" width=45 height=45 alt="Green circle icon" src="/data/images/icons/greencircle.webp">
+                    <img class="metadataIcon" width=45 height=45 alt="Green circle icon" src="/data/images/icons/greencircle.png">
                     <h5 class="headingFont">Contact Name and Email</h5>
                     <p class="metadataText">Please provide a name and email address of a point of contact who is a knowledgeable person on the dataset. 
                     This does not obligate the contact person to answer these or any other questions, but it would help us to track the 
@@ -695,7 +695,7 @@ Vue.component('metadata-guidelines', {
                     about the project/data.</p>
                 </div>
                 <div class="lead-paragraph metadataSection flex-area_row">
-                    <img class="metadataIcon" width=45 height=45 alt="Green circle icon" src="/data/images/icons/greencircle.webp">
+                    <img class="metadataIcon" width=45 height=45 alt="Green circle icon" src="/data/images/icons/greencircle.png">
                     <h5 class="headingFont">Geographic Coverage</h5>
                     <p class="metadataText">This is a  general description of the area where the data are collected, such as “I-90”, or “Leesburg, VA”, or
                      “Florida.” The more detail/specificity you provide, the better it is for other users to understand the location(s) 
@@ -703,13 +703,13 @@ Vue.component('metadata-guidelines', {
                 </div>
             </div>
             <div class="lead-paragraph metadataSection flex-area_row" style="margin-left: 50px;padding: 10px;">
-                    <img class="metadataIcon" width=45 height=45 alt="Green circle icon" src="/data/images/icons/greencircle.webp" style="left: -28px">
+                    <img class="metadataIcon" width=45 height=45 alt="Green circle icon" src="/data/images/icons/greencircle.png" style="left: -28px">
                     <h5 class="headingFont">Column Descriptions</h5>
                     <p  class="metadataText">For each ‘main’ dataset, please provide brief descriptions of each column. 
                     If you have a data dictionary in another file type such as a spreadsheet, CSV, or metadata file, please provide it, 
                     and record the exact name of the file here. Please be as descriptive as possible to help others understand your data.</p>
             </div>
-            <img class="contentIndicator" width=69 height=69 style="top: -40px; left:0;" src="/data/images/icons/ContentIndicator.webp" alt="Content Indicator Arrow"/>
+            <img class="contentIndicator" width=69 height=69 style="top: -40px; left:0;" src="/data/images/icons/ContentIndicator.png" alt="Content Indicator Arrow"/>
         <div id ="metaexampleDiv">
             <h2>Example</h2>
             <div class="exampleContent">
