@@ -1,415 +1,512 @@
 {
   "\u0000plugin-vue:export-helper": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
   "\u0000vite/modulepreload-polyfill": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
   "\u0000vite/preload-helper": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
   "index.html": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
+  ],
+  "node_modules/@fortawesome/fontawesome-svg-core/index.mjs": [
+    "/data/assets/dot_logo-051350a0.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
+    "/data/assets/times-circle-b17e09bf.svg",
+    "/data/assets/header_background-47410d46.webp"
+  ],
+  "node_modules/@fortawesome/free-solid-svg-icons/index.mjs": [
+    "/data/assets/dot_logo-051350a0.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
+    "/data/assets/times-circle-b17e09bf.svg",
+    "/data/assets/header_background-47410d46.webp"
+  ],
+  "node_modules/@fortawesome/vue-fontawesome/index.es.js": [
+    "/data/assets/dot_logo-051350a0.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
+    "/data/assets/times-circle-b17e09bf.svg",
+    "/data/assets/header_background-47410d46.webp"
   ],
   "node_modules/@unhead/dom/dist/index.mjs": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
   "node_modules/@unhead/shared/dist/index.mjs": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
   "node_modules/@unhead/vue/dist/shared/vue.505b826e.mjs": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
   "node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
   "node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
   "node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
   "node_modules/@vue/shared/dist/shared.esm-bundler.js": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
   "node_modules/hookable/dist/index.mjs": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
   "node_modules/pinia/dist/pinia.mjs": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
   "node_modules/pinia/node_modules/vue-demi/lib/index.mjs": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
   "node_modules/unhead/dist/index.mjs": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
   "node_modules/vite-ssg/dist/index.mjs": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
   "node_modules/vite-ssg/dist/shared/vite-ssg.5912142e.mjs": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
   "node_modules/vite-ssg/dist/shared/vite-ssg.a009fbf1.mjs": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
   "node_modules/vue-router/dist/vue-router.mjs": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
   "src/App.vue": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
-  "src/assets/css/ITS_JPO.css": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+  "src/assets/css/main.css": [
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
-    "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
-  ],
-  "src/assets/css/bulma.css": [
+    "/data/assets/dot_logo2-ade4a771.svg",
     "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
-    "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
-  ],
-  "src/assets/css/usdot_data_microsite_template.css": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
-    "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
-    "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
-  ],
-  "src/assets/css/usdot_data_public_access_template.css": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
-    "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
-    "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
   "src/assets/icons/ContentIndicator.webp": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
   "src/assets/icons/ITS_JPO.webp": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
   "src/assets/icons/dot_logo.webp": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
   "src/assets/icons/dot_logo2.svg": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
   "src/assets/icons/greencircle.webp": [
-    "/data/assets/SubmissionView-aaf36057.js"
+    "/data/assets/SubmissionView-d3ae3ede.js",
+    "/data/assets/SubmissionView-7e8938df.css"
   ],
   "src/assets/icons/loading.svg": [
-    "/data/assets/SearchView-2c91d61c.js",
-    "/data/assets/SearchView-ade43d0a.css",
-    "/data/assets/loading-5ef061fa.svg"
+    "/data/assets/SearchView-40345954.js",
+    "/data/assets/SearchView-a98d2cf3.css",
+    "/data/assets/loading-eec92996.svg"
   ],
   "src/assets/images/its_jpo_30_anniversary_logo.webp": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
   "src/assets/images/us_map_data_density.webp": [
-    "/data/assets/AboutView-fcb859bd.js",
+    "/data/assets/AboutView-9a0ce5e6.js",
+    "/data/assets/AboutView-b66194ce.css",
     "/data/assets/us_map_data_density-a0472257.webp"
   ],
   "src/components/CategorySearch.vue": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
   "src/components/CategorySearch.vue?vue&type=style&index=0&lang.css": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
   "src/components/DataRequirements.vue": [
-    "/data/assets/SubmissionView-aaf36057.js"
+    "/data/assets/SubmissionView-d3ae3ede.js",
+    "/data/assets/SubmissionView-7e8938df.css"
+  ],
+  "src/components/DataRequirements.vue?vue&type=style&index=0&lang.css": [
+    "/data/assets/SubmissionView-d3ae3ede.js",
+    "/data/assets/SubmissionView-7e8938df.css"
   ],
   "src/components/FeaturedData.vue": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
   "src/components/FeaturedData.vue?vue&type=style&index=0&lang.css": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
-  "src/components/FooterDOT.vue": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+  "src/components/Layout/FooterDOT.vue": [
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
-  "src/components/HeaderDOT.vue": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+  "src/components/Layout/FooterDOT.vue?vue&type=style&index=0&lang.css": [
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
-  "src/components/HeaderDOT.vue?vue&type=style&index=0&lang.css": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+  "src/components/Layout/HeaderDOT.vue": [
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
-  "src/components/Navigation.vue": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+  "src/components/Layout/HeaderDOT.vue?vue&type=style&index=0&lang.css": [
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
-  "src/components/Navigation.vue?vue&type=style&index=0&lang.css": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+  "src/components/Layout/Navigation.vue": [
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
+  ],
+  "src/components/Layout/Navigation.vue?vue&type=style&index=0&lang.css": [
+    "/data/assets/dot_logo-051350a0.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
+    "/data/assets/times-circle-b17e09bf.svg",
+    "/data/assets/header_background-47410d46.webp"
+  ],
+  "src/components/LoadingCategories.vue": [
+    "/data/assets/dot_logo-051350a0.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
+    "/data/assets/times-circle-b17e09bf.svg",
+    "/data/assets/header_background-47410d46.webp"
+  ],
+  "src/components/LoadingCategories.vue?vue&type=style&index=0&scoped=6b9f95bc&lang.css": [
+    "/data/assets/dot_logo-051350a0.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
+    "/data/assets/times-circle-b17e09bf.svg",
+    "/data/assets/header_background-47410d46.webp"
+  ],
+  "src/components/LoadingData.vue": [
+    "/data/assets/dot_logo-051350a0.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
+    "/data/assets/times-circle-b17e09bf.svg",
+    "/data/assets/header_background-47410d46.webp"
+  ],
+  "src/components/LoadingData.vue?vue&type=style&index=0&scoped=0529fdf1&lang.css": [
+    "/data/assets/dot_logo-051350a0.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
+    "/data/assets/times-circle-b17e09bf.svg",
+    "/data/assets/header_background-47410d46.webp"
   ],
   "src/components/SearchMain.vue": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
-    "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
-  ],
-  "src/components/SearchMain.vue?vue&type=style&index=0&lang.css": [
+    "/data/assets/dot_logo2-ade4a771.svg",
     "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
-    "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
-  "src/components/SearchResults.vue": [
-    "/data/assets/SearchView-2c91d61c.js",
-    "/data/assets/SearchView-ade43d0a.css",
-    "/data/assets/loading-5ef061fa.svg"
+  "src/components/SearchMain.vue?vue&type=style&index=0&scoped=7856ef77&lang.css": [
+    "/data/assets/dot_logo-051350a0.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
+    "/data/assets/times-circle-b17e09bf.svg",
+    "/data/assets/header_background-47410d46.webp"
   ],
-  "src/components/SearchResults.vue?vue&type=style&index=0&lang.css": [
-    "/data/assets/SearchView-2c91d61c.js",
-    "/data/assets/SearchView-ade43d0a.css",
-    "/data/assets/loading-5ef061fa.svg"
+  "src/components/SearchResults/SearchResultDescription.vue": [
+    "/data/assets/SearchView-40345954.js",
+    "/data/assets/SearchView-a98d2cf3.css",
+    "/data/assets/loading-eec92996.svg"
+  ],
+  "src/components/SearchResults/SearchResultDescription.vue?vue&type=style&index=0&lang.css": [
+    "/data/assets/SearchView-40345954.js",
+    "/data/assets/SearchView-a98d2cf3.css",
+    "/data/assets/loading-eec92996.svg"
+  ],
+  "src/components/SearchResults/SearchResultItem.vue": [
+    "/data/assets/SearchView-40345954.js",
+    "/data/assets/SearchView-a98d2cf3.css",
+    "/data/assets/loading-eec92996.svg"
+  ],
+  "src/components/SearchResults/SearchResultItem.vue?vue&type=style&index=0&lang.css": [
+    "/data/assets/SearchView-40345954.js",
+    "/data/assets/SearchView-a98d2cf3.css",
+    "/data/assets/loading-eec92996.svg"
+  ],
+  "src/components/SearchResults/SearchResults.vue": [
+    "/data/assets/SearchView-40345954.js",
+    "/data/assets/SearchView-a98d2cf3.css",
+    "/data/assets/loading-eec92996.svg"
+  ],
+  "src/components/SearchResults/SearchResults.vue?vue&type=style&index=0&lang.css": [
+    "/data/assets/SearchView-40345954.js",
+    "/data/assets/SearchView-a98d2cf3.css",
+    "/data/assets/loading-eec92996.svg"
+  ],
+  "src/components/SearchResults/SearchResultsTags.vue": [
+    "/data/assets/SearchView-40345954.js",
+    "/data/assets/SearchView-a98d2cf3.css",
+    "/data/assets/loading-eec92996.svg"
+  ],
+  "src/components/SearchResults/SearchResultsTopics.vue": [
+    "/data/assets/SearchView-40345954.js",
+    "/data/assets/SearchView-a98d2cf3.css",
+    "/data/assets/loading-eec92996.svg"
+  ],
+  "src/components/SearchResults/SearchResultsTopics.vue?vue&type=style&index=0&lang.css": [
+    "/data/assets/SearchView-40345954.js",
+    "/data/assets/SearchView-a98d2cf3.css",
+    "/data/assets/loading-eec92996.svg"
   ],
   "src/constants.js": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
   "src/main.js": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
   "src/router/index.js": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
   "src/stores/dataset.js": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
   "src/stores/ntl.js": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
   "src/stores/socrata.js": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
+  ],
+  "src/utils.js": [
+    "/data/assets/dot_logo-051350a0.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
+    "/data/assets/times-circle-b17e09bf.svg",
+    "/data/assets/header_background-47410d46.webp"
   ],
   "src/views/AboutView.vue": [
-    "/data/assets/AboutView-fcb859bd.js",
+    "/data/assets/AboutView-9a0ce5e6.js",
+    "/data/assets/AboutView-b66194ce.css",
+    "/data/assets/us_map_data_density-a0472257.webp"
+  ],
+  "src/views/AboutView.vue?vue&type=style&index=0&lang.css": [
+    "/data/assets/AboutView-9a0ce5e6.js",
+    "/data/assets/AboutView-b66194ce.css",
     "/data/assets/us_map_data_density-a0472257.webp"
   ],
   "src/views/HomeView.vue": [
-    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/data/assets/dot_logo-051350a0.webp",
-    "/data/assets/dot_logo2-f50188c5.svg",
-    "/data/assets/header_background-47410d46.webp",
+    "/data/assets/dot_logo2-ade4a771.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/data/assets/CategoryBackground-6b40a7bb.webp",
     "/data/assets/times-circle-b17e09bf.svg",
-    "/data/assets/CategoryBackground-6b40a7bb.webp"
+    "/data/assets/header_background-47410d46.webp"
   ],
   "src/views/SearchView.vue": [
-    "/data/assets/SearchView-2c91d61c.js",
-    "/data/assets/SearchView-ade43d0a.css",
-    "/data/assets/loading-5ef061fa.svg"
+    "/data/assets/SearchView-40345954.js",
+    "/data/assets/SearchView-a98d2cf3.css",
+    "/data/assets/loading-eec92996.svg"
   ],
   "src/views/SubmissionView.vue": [
-    "/data/assets/SubmissionView-aaf36057.js"
+    "/data/assets/SubmissionView-d3ae3ede.js",
+    "/data/assets/SubmissionView-7e8938df.css"
   ]
 }
