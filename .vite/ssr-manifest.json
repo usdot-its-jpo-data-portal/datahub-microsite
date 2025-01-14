@@ -62,14 +62,14 @@
     "/data/assets/CategoryBackground-D7JFB5X3.webp",
     "/data/assets/header_background-DKGcBc7-.webp"
   ],
-  "node_modules/@unhead/vue/dist/shared/vue.cf295fb1.mjs": [
+  "node_modules/@unhead/vue/dist/shared/vue.8fc199ce.mjs": [
     "/data/assets/dot_logo-Df_hHXLo.webp",
     "/data/assets/dot_logo2-BhNvdYpP.svg",
     "/data/assets/its_jpo_30_anniversary_logo-BKk07GcU.webp",
     "/data/assets/CategoryBackground-D7JFB5X3.webp",
     "/data/assets/header_background-DKGcBc7-.webp"
   ],
-  "node_modules/@unhead/vue/dist/shared/vue.f36acd1f.mjs": [
+  "node_modules/@unhead/vue/dist/shared/vue.f49591ad.mjs": [
     "/data/assets/dot_logo-Df_hHXLo.webp",
     "/data/assets/dot_logo2-BhNvdYpP.svg",
     "/data/assets/its_jpo_30_anniversary_logo-BKk07GcU.webp",
@@ -105,14 +105,35 @@
     "/data/assets/header_background-DKGcBc7-.webp"
   ],
   "node_modules/@vuelidate/components/dist/index.mjs": [
-    "/data/assets/MetadataView-B3XrYMCN.js",
-    "/data/assets/MetadataView-DoDAQ_eQ.css"
+    "/data/assets/MetadataView-I0dvh3-z.js",
+    "/data/assets/MetadataView-Ct6zx9S1.css"
   ],
   "node_modules/@vuelidate/core/dist/index.mjs": [
-    "/data/assets/index-jN5mUv6Z.js"
+    "/data/assets/index-Ci-SJQZV.js"
   ],
   "node_modules/@vuelidate/validators/dist/index.mjs": [
-    "/data/assets/index-jN5mUv6Z.js"
+    "/data/assets/index-Ci-SJQZV.js"
+  ],
+  "node_modules/@vueuse/components/index.mjs": [
+    "/data/assets/dot_logo-Df_hHXLo.webp",
+    "/data/assets/dot_logo2-BhNvdYpP.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-BKk07GcU.webp",
+    "/data/assets/CategoryBackground-D7JFB5X3.webp",
+    "/data/assets/header_background-DKGcBc7-.webp"
+  ],
+  "node_modules/@vueuse/core/index.mjs": [
+    "/data/assets/dot_logo-Df_hHXLo.webp",
+    "/data/assets/dot_logo2-BhNvdYpP.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-BKk07GcU.webp",
+    "/data/assets/CategoryBackground-D7JFB5X3.webp",
+    "/data/assets/header_background-DKGcBc7-.webp"
+  ],
+  "node_modules/@vueuse/shared/index.mjs": [
+    "/data/assets/dot_logo-Df_hHXLo.webp",
+    "/data/assets/dot_logo2-BhNvdYpP.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-BKk07GcU.webp",
+    "/data/assets/CategoryBackground-D7JFB5X3.webp",
+    "/data/assets/header_background-DKGcBc7-.webp"
   ],
   "node_modules/buefy/dist/esm/Autocomplete-b22ea7fa.js": [
     "/data/assets/dot_logo-Df_hHXLo.webp",
@@ -646,6 +667,20 @@
     "/data/assets/CategoryBackground-D7JFB5X3.webp",
     "/data/assets/header_background-DKGcBc7-.webp"
   ],
+  "node_modules/deep-pick-omit/dist/index.mjs": [
+    "/data/assets/dot_logo-Df_hHXLo.webp",
+    "/data/assets/dot_logo2-BhNvdYpP.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-BKk07GcU.webp",
+    "/data/assets/CategoryBackground-D7JFB5X3.webp",
+    "/data/assets/header_background-DKGcBc7-.webp"
+  ],
+  "node_modules/destr/dist/index.mjs": [
+    "/data/assets/dot_logo-Df_hHXLo.webp",
+    "/data/assets/dot_logo2-BhNvdYpP.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-BKk07GcU.webp",
+    "/data/assets/CategoryBackground-D7JFB5X3.webp",
+    "/data/assets/header_background-DKGcBc7-.webp"
+  ],
   "node_modules/hookable/dist/index.mjs": [
     "/data/assets/dot_logo-Df_hHXLo.webp",
     "/data/assets/dot_logo2-BhNvdYpP.svg",
@@ -653,7 +688,7 @@
     "/data/assets/CategoryBackground-D7JFB5X3.webp",
     "/data/assets/header_background-DKGcBc7-.webp"
   ],
-  "node_modules/pinia-plugin-persistedstate/dist/index.mjs": [
+  "node_modules/pinia-plugin-persistedstate/dist/index.js": [
     "/data/assets/dot_logo-Df_hHXLo.webp",
     "/data/assets/dot_logo2-BhNvdYpP.svg",
     "/data/assets/its_jpo_30_anniversary_logo-BKk07GcU.webp",
@@ -661,13 +696,6 @@
     "/data/assets/header_background-DKGcBc7-.webp"
   ],
   "node_modules/pinia/dist/pinia.mjs": [
-    "/data/assets/dot_logo-Df_hHXLo.webp",
-    "/data/assets/dot_logo2-BhNvdYpP.svg",
-    "/data/assets/its_jpo_30_anniversary_logo-BKk07GcU.webp",
-    "/data/assets/CategoryBackground-D7JFB5X3.webp",
-    "/data/assets/header_background-DKGcBc7-.webp"
-  ],
-  "node_modules/pinia/node_modules/vue-demi/lib/index.mjs": [
     "/data/assets/dot_logo-Df_hHXLo.webp",
     "/data/assets/dot_logo2-BhNvdYpP.svg",
     "/data/assets/its_jpo_30_anniversary_logo-BKk07GcU.webp",
@@ -682,20 +710,20 @@
     "/data/assets/header_background-DKGcBc7-.webp"
   ],
   "node_modules/uuid/dist/esm-browser/native.js": [
-    "/data/assets/MetadataView-B3XrYMCN.js",
-    "/data/assets/MetadataView-DoDAQ_eQ.css"
+    "/data/assets/MetadataView-I0dvh3-z.js",
+    "/data/assets/MetadataView-Ct6zx9S1.css"
   ],
   "node_modules/uuid/dist/esm-browser/rng.js": [
-    "/data/assets/MetadataView-B3XrYMCN.js",
-    "/data/assets/MetadataView-DoDAQ_eQ.css"
+    "/data/assets/MetadataView-I0dvh3-z.js",
+    "/data/assets/MetadataView-Ct6zx9S1.css"
   ],
   "node_modules/uuid/dist/esm-browser/stringify.js": [
-    "/data/assets/MetadataView-B3XrYMCN.js",
-    "/data/assets/MetadataView-DoDAQ_eQ.css"
+    "/data/assets/MetadataView-I0dvh3-z.js",
+    "/data/assets/MetadataView-Ct6zx9S1.css"
   ],
   "node_modules/uuid/dist/esm-browser/v4.js": [
-    "/data/assets/MetadataView-B3XrYMCN.js",
-    "/data/assets/MetadataView-DoDAQ_eQ.css"
+    "/data/assets/MetadataView-I0dvh3-z.js",
+    "/data/assets/MetadataView-Ct6zx9S1.css"
   ],
   "node_modules/vite-ssg/dist/index.mjs": [
     "/data/assets/dot_logo-Df_hHXLo.webp",
@@ -704,14 +732,21 @@
     "/data/assets/CategoryBackground-D7JFB5X3.webp",
     "/data/assets/header_background-DKGcBc7-.webp"
   ],
-  "node_modules/vite-ssg/dist/shared/vite-ssg.5912142e.mjs": [
+  "node_modules/vite-ssg/dist/shared/vite-ssg.C6pK7rvr.mjs": [
     "/data/assets/dot_logo-Df_hHXLo.webp",
     "/data/assets/dot_logo2-BhNvdYpP.svg",
     "/data/assets/its_jpo_30_anniversary_logo-BKk07GcU.webp",
     "/data/assets/CategoryBackground-D7JFB5X3.webp",
     "/data/assets/header_background-DKGcBc7-.webp"
   ],
-  "node_modules/vite-ssg/dist/shared/vite-ssg.a009fbf1.mjs": [
+  "node_modules/vite-ssg/dist/shared/vite-ssg.ETIvV-80.mjs": [
+    "/data/assets/dot_logo-Df_hHXLo.webp",
+    "/data/assets/dot_logo2-BhNvdYpP.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-BKk07GcU.webp",
+    "/data/assets/CategoryBackground-D7JFB5X3.webp",
+    "/data/assets/header_background-DKGcBc7-.webp"
+  ],
+  "node_modules/vue-demi/lib/index.mjs": [
     "/data/assets/dot_logo-Df_hHXLo.webp",
     "/data/assets/dot_logo2-BhNvdYpP.svg",
     "/data/assets/its_jpo_30_anniversary_logo-BKk07GcU.webp",
@@ -761,8 +796,8 @@
     "/data/assets/header_background-DKGcBc7-.webp"
   ],
   "src/assets/icons/loading.svg": [
-    "/data/assets/SearchView-iK5PSgtv.js",
-    "/data/assets/SearchView-D4X4Joph.css"
+    "/data/assets/SearchView-C8MwCdca.js",
+    "/data/assets/SearchView-QdH5rMYR.css"
   ],
   "src/assets/images/its_jpo_30_anniversary_logo.webp": [
     "/data/assets/dot_logo-Df_hHXLo.webp",
@@ -772,11 +807,32 @@
     "/data/assets/header_background-DKGcBc7-.webp"
   ],
   "src/assets/images/us_map_data_density.webp": [
-    "/data/assets/AboutView-CNdiU8_O.js",
-    "/data/assets/AboutView-DjQNeODt.css",
+    "/data/assets/AboutView-DkxkXaWE.js",
+    "/data/assets/AboutView-FM2aHRCN.css",
     "/data/assets/us_map_data_density-CHhzJWXM.webp"
   ],
   "src/assets/styles/global.scss": [
+    "/data/assets/dot_logo-Df_hHXLo.webp",
+    "/data/assets/dot_logo2-BhNvdYpP.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-BKk07GcU.webp",
+    "/data/assets/CategoryBackground-D7JFB5X3.webp",
+    "/data/assets/header_background-DKGcBc7-.webp"
+  ],
+  "src/components/Autocomplete.vue": [
+    "/data/assets/dot_logo-Df_hHXLo.webp",
+    "/data/assets/dot_logo2-BhNvdYpP.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-BKk07GcU.webp",
+    "/data/assets/CategoryBackground-D7JFB5X3.webp",
+    "/data/assets/header_background-DKGcBc7-.webp"
+  ],
+  "src/components/Autocomplete.vue?vue&type=script&setup=true&lang.ts": [
+    "/data/assets/dot_logo-Df_hHXLo.webp",
+    "/data/assets/dot_logo2-BhNvdYpP.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-BKk07GcU.webp",
+    "/data/assets/CategoryBackground-D7JFB5X3.webp",
+    "/data/assets/header_background-DKGcBc7-.webp"
+  ],
+  "src/components/Autocomplete.vue?vue&type=style&index=0&scoped=5f4a9551&lang.css": [
     "/data/assets/dot_logo-Df_hHXLo.webp",
     "/data/assets/dot_logo2-BhNvdYpP.svg",
     "/data/assets/its_jpo_30_anniversary_logo-BKk07GcU.webp",
@@ -790,16 +846,19 @@
     "/data/assets/CategoryBackground-D7JFB5X3.webp",
     "/data/assets/header_background-DKGcBc7-.webp"
   ],
-  "src/components/CategorySearch.vue?vue&type=style&index=0&lang.css": [
+  "src/components/CategorySearch.vue?vue&type=script&setup=true&lang.ts": [
     "/data/assets/dot_logo-Df_hHXLo.webp",
     "/data/assets/dot_logo2-BhNvdYpP.svg",
     "/data/assets/its_jpo_30_anniversary_logo-BKk07GcU.webp",
     "/data/assets/CategoryBackground-D7JFB5X3.webp",
     "/data/assets/header_background-DKGcBc7-.webp"
   ],
-  "src/components/DataRequirements.vue?vue&type=style&index=0&lang.css": [
-    "/data/assets/SubmissionView-DFzqcu3o.js",
-    "/data/assets/SubmissionView-CMoBM96i.css"
+  "src/components/CategorySearch.vue?vue&type=style&index=0&scoped=9cfef8b5&lang.css": [
+    "/data/assets/dot_logo-Df_hHXLo.webp",
+    "/data/assets/dot_logo2-BhNvdYpP.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-BKk07GcU.webp",
+    "/data/assets/CategoryBackground-D7JFB5X3.webp",
+    "/data/assets/header_background-DKGcBc7-.webp"
   ],
   "src/components/FeaturedData.vue": [
     "/data/assets/dot_logo-Df_hHXLo.webp",
@@ -816,12 +875,12 @@
     "/data/assets/header_background-DKGcBc7-.webp"
   ],
   "src/components/Layout/Accordian.vue": [
-    "/data/assets/MetadataView-B3XrYMCN.js",
-    "/data/assets/MetadataView-DoDAQ_eQ.css"
+    "/data/assets/MetadataView-I0dvh3-z.js",
+    "/data/assets/MetadataView-Ct6zx9S1.css"
   ],
   "src/components/Layout/Accordian.vue?vue&type=style&index=0&scoped=78e842d6&lang.css": [
-    "/data/assets/MetadataView-B3XrYMCN.js",
-    "/data/assets/MetadataView-DoDAQ_eQ.css"
+    "/data/assets/MetadataView-I0dvh3-z.js",
+    "/data/assets/MetadataView-Ct6zx9S1.css"
   ],
   "src/components/Layout/FooterDOT.vue": [
     "/data/assets/dot_logo-Df_hHXLo.webp",
@@ -894,60 +953,68 @@
     "/data/assets/header_background-DKGcBc7-.webp"
   ],
   "src/components/MetadataForm/AdditionalDetails.vue": [
-    "/data/assets/MetadataView-B3XrYMCN.js",
-    "/data/assets/MetadataView-DoDAQ_eQ.css"
+    "/data/assets/MetadataView-I0dvh3-z.js",
+    "/data/assets/MetadataView-Ct6zx9S1.css"
   ],
   "src/components/MetadataForm/AdditionalDetails.vue?vue&type=style&index=0&lang.css": [
-    "/data/assets/MetadataView-B3XrYMCN.js",
-    "/data/assets/MetadataView-DoDAQ_eQ.css"
+    "/data/assets/MetadataView-I0dvh3-z.js",
+    "/data/assets/MetadataView-Ct6zx9S1.css"
   ],
   "src/components/MetadataForm/ConfirmSubmission.vue": [
-    "/data/assets/MetadataView-B3XrYMCN.js",
-    "/data/assets/MetadataView-DoDAQ_eQ.css"
+    "/data/assets/MetadataView-I0dvh3-z.js",
+    "/data/assets/MetadataView-Ct6zx9S1.css"
   ],
   "src/components/MetadataForm/DatasetColumns.vue": [
-    "/data/assets/MetadataView-B3XrYMCN.js",
-    "/data/assets/MetadataView-DoDAQ_eQ.css"
+    "/data/assets/MetadataView-I0dvh3-z.js",
+    "/data/assets/MetadataView-Ct6zx9S1.css"
   ],
   "src/components/MetadataForm/Datasets.vue": [
-    "/data/assets/MetadataView-B3XrYMCN.js",
-    "/data/assets/MetadataView-DoDAQ_eQ.css"
+    "/data/assets/MetadataView-I0dvh3-z.js",
+    "/data/assets/MetadataView-Ct6zx9S1.css"
   ],
   "src/components/MetadataForm/FileUpload.vue": [
-    "/data/assets/MetadataView-B3XrYMCN.js",
-    "/data/assets/MetadataView-DoDAQ_eQ.css"
+    "/data/assets/MetadataView-I0dvh3-z.js",
+    "/data/assets/MetadataView-Ct6zx9S1.css"
   ],
   "src/components/MetadataForm/MetadataForm.vue": [
-    "/data/assets/MetadataView-B3XrYMCN.js",
-    "/data/assets/MetadataView-DoDAQ_eQ.css"
+    "/data/assets/MetadataView-I0dvh3-z.js",
+    "/data/assets/MetadataView-Ct6zx9S1.css"
   ],
   "src/components/MetadataForm/MetadataSidebar.vue": [
-    "/data/assets/MetadataView-B3XrYMCN.js",
-    "/data/assets/MetadataView-DoDAQ_eQ.css"
+    "/data/assets/MetadataView-I0dvh3-z.js",
+    "/data/assets/MetadataView-Ct6zx9S1.css"
   ],
   "src/components/MetadataForm/MetadataSidebar.vue?vue&type=style&index=0&scoped=f3e5cf18&lang.css": [
-    "/data/assets/MetadataView-B3XrYMCN.js",
-    "/data/assets/MetadataView-DoDAQ_eQ.css"
+    "/data/assets/MetadataView-I0dvh3-z.js",
+    "/data/assets/MetadataView-Ct6zx9S1.css"
   ],
   "src/components/MetadataForm/MetadataSubmission.vue": [
-    "/data/assets/MetadataView-B3XrYMCN.js",
-    "/data/assets/MetadataView-DoDAQ_eQ.css"
+    "/data/assets/MetadataView-I0dvh3-z.js",
+    "/data/assets/MetadataView-Ct6zx9S1.css"
   ],
   "src/components/MetadataForm/ProjectInformation.vue": [
-    "/data/assets/MetadataView-B3XrYMCN.js",
-    "/data/assets/MetadataView-DoDAQ_eQ.css"
+    "/data/assets/MetadataView-I0dvh3-z.js",
+    "/data/assets/MetadataView-Ct6zx9S1.css"
   ],
   "src/components/MetadataForm/Summary.vue": [
-    "/data/assets/MetadataView-B3XrYMCN.js",
-    "/data/assets/MetadataView-DoDAQ_eQ.css"
+    "/data/assets/MetadataView-I0dvh3-z.js",
+    "/data/assets/MetadataView-Ct6zx9S1.css"
   ],
   "src/components/MetadataForm/SupplementaryFiles.vue": [
-    "/data/assets/MetadataView-B3XrYMCN.js",
-    "/data/assets/MetadataView-DoDAQ_eQ.css"
+    "/data/assets/MetadataView-I0dvh3-z.js",
+    "/data/assets/MetadataView-Ct6zx9S1.css"
   ],
   "src/components/MetadataForm/formTemplates.js": [
-    "/data/assets/MetadataView-B3XrYMCN.js",
-    "/data/assets/MetadataView-DoDAQ_eQ.css"
+    "/data/assets/MetadataView-I0dvh3-z.js",
+    "/data/assets/MetadataView-Ct6zx9S1.css"
+  ],
+  "src/components/RequestForm.vue": [
+    "/data/assets/RequestView-BikHyCgC.js",
+    "/data/assets/SubmissionView-BO5BrA07.css"
+  ],
+  "src/components/RequestForm.vue?vue&type=style&index=0&lang.css": [
+    "/data/assets/RequestView-BikHyCgC.js",
+    "/data/assets/SubmissionView-BO5BrA07.css"
   ],
   "src/components/SearchMain.vue": [
     "/data/assets/dot_logo-Df_hHXLo.webp",
@@ -956,70 +1023,81 @@
     "/data/assets/CategoryBackground-D7JFB5X3.webp",
     "/data/assets/header_background-DKGcBc7-.webp"
   ],
-  "src/components/SearchMain.vue?vue&type=style&index=0&scoped=7856ef77&lang.css": [
+  "src/components/SearchMain.vue?vue&type=script&setup=true&lang.ts": [
     "/data/assets/dot_logo-Df_hHXLo.webp",
     "/data/assets/dot_logo2-BhNvdYpP.svg",
     "/data/assets/its_jpo_30_anniversary_logo-BKk07GcU.webp",
     "/data/assets/CategoryBackground-D7JFB5X3.webp",
     "/data/assets/header_background-DKGcBc7-.webp"
   ],
-  "src/components/SearchResults/SearchResultDescription.vue": [
-    "/data/assets/SearchView-iK5PSgtv.js",
-    "/data/assets/SearchView-D4X4Joph.css"
+  "src/components/SearchMain.vue?vue&type=style&index=0&scoped=005c0e5b&lang.css": [
+    "/data/assets/dot_logo-Df_hHXLo.webp",
+    "/data/assets/dot_logo2-BhNvdYpP.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-BKk07GcU.webp",
+    "/data/assets/CategoryBackground-D7JFB5X3.webp",
+    "/data/assets/header_background-DKGcBc7-.webp"
+  ],
+  "src/components/SearchResults/SearchResultDescription.vue?vue&type=script&setup=true&lang.ts": [
+    "/data/assets/SearchView-C8MwCdca.js",
+    "/data/assets/SearchView-QdH5rMYR.css"
   ],
   "src/components/SearchResults/SearchResultDescription.vue?vue&type=style&index=0&lang.css": [
-    "/data/assets/SearchView-iK5PSgtv.js",
-    "/data/assets/SearchView-D4X4Joph.css"
+    "/data/assets/SearchView-C8MwCdca.js",
+    "/data/assets/SearchView-QdH5rMYR.css"
   ],
   "src/components/SearchResults/SearchResultItem.vue": [
-    "/data/assets/SearchView-iK5PSgtv.js",
-    "/data/assets/SearchView-D4X4Joph.css"
+    "/data/assets/SearchView-C8MwCdca.js",
+    "/data/assets/SearchView-QdH5rMYR.css"
   ],
   "src/components/SearchResults/SearchResultItem.vue?vue&type=style&index=0&lang.css": [
-    "/data/assets/SearchView-iK5PSgtv.js",
-    "/data/assets/SearchView-D4X4Joph.css"
+    "/data/assets/SearchView-C8MwCdca.js",
+    "/data/assets/SearchView-QdH5rMYR.css"
   ],
-  "src/components/SearchResults/SearchResults.vue": [
-    "/data/assets/SearchView-iK5PSgtv.js",
-    "/data/assets/SearchView-D4X4Joph.css"
+  "src/components/SearchResults/SearchResults.vue?vue&type=script&setup=true&lang.ts": [
+    "/data/assets/SearchView-C8MwCdca.js",
+    "/data/assets/SearchView-QdH5rMYR.css"
   ],
   "src/components/SearchResults/SearchResults.vue?vue&type=style&index=0&lang.css": [
-    "/data/assets/SearchView-iK5PSgtv.js",
-    "/data/assets/SearchView-D4X4Joph.css"
+    "/data/assets/SearchView-C8MwCdca.js",
+    "/data/assets/SearchView-QdH5rMYR.css"
   ],
   "src/components/SearchResults/SearchResultsTags.vue": [
-    "/data/assets/SearchView-iK5PSgtv.js",
-    "/data/assets/SearchView-D4X4Joph.css"
+    "/data/assets/SearchView-C8MwCdca.js",
+    "/data/assets/SearchView-QdH5rMYR.css"
   ],
   "src/components/SearchResults/SearchResultsTopics.vue": [
-    "/data/assets/SearchView-iK5PSgtv.js",
-    "/data/assets/SearchView-D4X4Joph.css"
+    "/data/assets/SearchView-C8MwCdca.js",
+    "/data/assets/SearchView-QdH5rMYR.css"
   ],
   "src/components/SearchResults/SearchResultsTopics.vue?vue&type=style&index=0&lang.css": [
-    "/data/assets/SearchView-iK5PSgtv.js",
-    "/data/assets/SearchView-D4X4Joph.css"
+    "/data/assets/SearchView-C8MwCdca.js",
+    "/data/assets/SearchView-QdH5rMYR.css"
   ],
   "src/components/SubmissionForm.vue": [
-    "/data/assets/SubmissionView-DFzqcu3o.js",
-    "/data/assets/SubmissionView-CMoBM96i.css"
+    "/data/assets/SubmissionView-OOy4Zx1J.js",
+    "/data/assets/SubmissionView-BO5BrA07.css"
   ],
   "src/components/SubmissionForm.vue?vue&type=style&index=0&lang.css": [
-    "/data/assets/SubmissionView-DFzqcu3o.js",
-    "/data/assets/SubmissionView-CMoBM96i.css"
+    "/data/assets/SubmissionView-OOy4Zx1J.js",
+    "/data/assets/SubmissionView-BO5BrA07.css"
   ],
-  "src/constants.js": [
+  "src/constants.ts": [
     "/data/assets/dot_logo-Df_hHXLo.webp",
     "/data/assets/dot_logo2-BhNvdYpP.svg",
     "/data/assets/its_jpo_30_anniversary_logo-BKk07GcU.webp",
     "/data/assets/CategoryBackground-D7JFB5X3.webp",
     "/data/assets/header_background-DKGcBc7-.webp"
   ],
-  "src/main.js": [
+  "src/main.ts": [
     "/data/assets/dot_logo-Df_hHXLo.webp",
     "/data/assets/dot_logo2-BhNvdYpP.svg",
     "/data/assets/its_jpo_30_anniversary_logo-BKk07GcU.webp",
     "/data/assets/CategoryBackground-D7JFB5X3.webp",
     "/data/assets/header_background-DKGcBc7-.webp"
+  ],
+  "src/other-utils.js": [
+    "/data/assets/MetadataView-I0dvh3-z.js",
+    "/data/assets/MetadataView-Ct6zx9S1.css"
   ],
   "src/router/index.js": [
     "/data/assets/dot_logo-Df_hHXLo.webp",
@@ -1028,7 +1106,14 @@
     "/data/assets/CategoryBackground-D7JFB5X3.webp",
     "/data/assets/header_background-DKGcBc7-.webp"
   ],
-  "src/stores/dataset.js": [
+  "src/stores/autocomplete.ts": [
+    "/data/assets/dot_logo-Df_hHXLo.webp",
+    "/data/assets/dot_logo2-BhNvdYpP.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-BKk07GcU.webp",
+    "/data/assets/CategoryBackground-D7JFB5X3.webp",
+    "/data/assets/header_background-DKGcBc7-.webp"
+  ],
+  "src/stores/dataset.ts": [
     "/data/assets/dot_logo-Df_hHXLo.webp",
     "/data/assets/dot_logo2-BhNvdYpP.svg",
     "/data/assets/its_jpo_30_anniversary_logo-BKk07GcU.webp",
@@ -1036,42 +1121,52 @@
     "/data/assets/header_background-DKGcBc7-.webp"
   ],
   "src/stores/metadataForm.js": [
-    "/data/assets/MetadataView-B3XrYMCN.js",
-    "/data/assets/MetadataView-DoDAQ_eQ.css"
+    "/data/assets/MetadataView-I0dvh3-z.js",
+    "/data/assets/MetadataView-Ct6zx9S1.css"
   ],
-  "src/stores/ntl.js": [
+  "src/utils/error.ts": [
     "/data/assets/dot_logo-Df_hHXLo.webp",
     "/data/assets/dot_logo2-BhNvdYpP.svg",
     "/data/assets/its_jpo_30_anniversary_logo-BKk07GcU.webp",
     "/data/assets/CategoryBackground-D7JFB5X3.webp",
     "/data/assets/header_background-DKGcBc7-.webp"
   ],
-  "src/stores/socrata.js": [
+  "src/utils/index.ts": [
     "/data/assets/dot_logo-Df_hHXLo.webp",
     "/data/assets/dot_logo2-BhNvdYpP.svg",
     "/data/assets/its_jpo_30_anniversary_logo-BKk07GcU.webp",
     "/data/assets/CategoryBackground-D7JFB5X3.webp",
     "/data/assets/header_background-DKGcBc7-.webp"
   ],
-  "src/utils.js": [
+  "src/utils/parsing.ts": [
     "/data/assets/dot_logo-Df_hHXLo.webp",
     "/data/assets/dot_logo2-BhNvdYpP.svg",
     "/data/assets/its_jpo_30_anniversary_logo-BKk07GcU.webp",
     "/data/assets/CategoryBackground-D7JFB5X3.webp",
     "/data/assets/header_background-DKGcBc7-.webp"
   ],
-  "src/utils/storage.js": [
-    "/data/assets/MetadataView-B3XrYMCN.js",
-    "/data/assets/MetadataView-DoDAQ_eQ.css"
+  "src/utils/search.ts": [
+    "/data/assets/dot_logo-Df_hHXLo.webp",
+    "/data/assets/dot_logo2-BhNvdYpP.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-BKk07GcU.webp",
+    "/data/assets/CategoryBackground-D7JFB5X3.webp",
+    "/data/assets/header_background-DKGcBc7-.webp"
+  ],
+  "src/utils/storage.ts": [
+    "/data/assets/dot_logo-Df_hHXLo.webp",
+    "/data/assets/dot_logo2-BhNvdYpP.svg",
+    "/data/assets/its_jpo_30_anniversary_logo-BKk07GcU.webp",
+    "/data/assets/CategoryBackground-D7JFB5X3.webp",
+    "/data/assets/header_background-DKGcBc7-.webp"
   ],
   "src/views/AboutView.vue": [
-    "/data/assets/AboutView-CNdiU8_O.js",
-    "/data/assets/AboutView-DjQNeODt.css",
+    "/data/assets/AboutView-DkxkXaWE.js",
+    "/data/assets/AboutView-FM2aHRCN.css",
     "/data/assets/us_map_data_density-CHhzJWXM.webp"
   ],
   "src/views/AboutView.vue?vue&type=style&index=0&lang.css": [
-    "/data/assets/AboutView-CNdiU8_O.js",
-    "/data/assets/AboutView-DjQNeODt.css",
+    "/data/assets/AboutView-DkxkXaWE.js",
+    "/data/assets/AboutView-FM2aHRCN.css",
     "/data/assets/us_map_data_density-CHhzJWXM.webp"
   ],
   "src/views/HomeView.vue": [
@@ -1082,15 +1177,19 @@
     "/data/assets/header_background-DKGcBc7-.webp"
   ],
   "src/views/MetadataView.vue": [
-    "/data/assets/MetadataView-B3XrYMCN.js",
-    "/data/assets/MetadataView-DoDAQ_eQ.css"
+    "/data/assets/MetadataView-I0dvh3-z.js",
+    "/data/assets/MetadataView-Ct6zx9S1.css"
+  ],
+  "src/views/RequestView.vue": [
+    "/data/assets/RequestView-BikHyCgC.js",
+    "/data/assets/SubmissionView-BO5BrA07.css"
   ],
   "src/views/SearchView.vue": [
-    "/data/assets/SearchView-iK5PSgtv.js",
-    "/data/assets/SearchView-D4X4Joph.css"
+    "/data/assets/SearchView-C8MwCdca.js",
+    "/data/assets/SearchView-QdH5rMYR.css"
   ],
   "src/views/SubmissionView.vue": [
-    "/data/assets/SubmissionView-DFzqcu3o.js",
-    "/data/assets/SubmissionView-CMoBM96i.css"
+    "/data/assets/SubmissionView-OOy4Zx1J.js",
+    "/data/assets/SubmissionView-BO5BrA07.css"
   ]
 }
