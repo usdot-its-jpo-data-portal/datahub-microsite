@@ -1,6 +1,13 @@
 ﻿{
  "maxDatasetCount": 4,
     "datasets": [
+        {
+            "name": "Intersection Safety Challenge Dataset",
+            "description": "The Intersection Safety Challenge Dataset features a comprehensive collection of conflict/non-conflict scenario data involving various road users, captured by visual and thermal cameras, LiDAR, and radar sensors under diverse weather and lighting conditions.",
+            "url": "https://datahub.transportation.gov/Roadways-and-Bridges/Intersection-Safety-Challenge-Stage-1B-Training-Da/vq7s-mv3v/about_data",
+            "image": "isc.gif",
+            "altText": "Example of image and lidar data from the Intersection Safety Challenge dataset"
+        },
         {   "name": "Connected Vehicle Pilot Open Data Story", 
             "description": "Calling all ITS and Traffic Safety Researchers - discover CV Pilot Open Data, the research tools and support available, and ways you can access them to support your projects.", 
             "url": "https://data.transportation.gov/stories/s/Connected-Vehicle-Pilot-Sandbox/hr8h-ufhq", 
@@ -19,15 +26,6 @@
             "url": "https://data.transportation.gov/stories/s/i5zb-xe34",
             "image": "US-101-Processed1.webp",
             "altText": "Overhead view of cars moving along a highway with green dots indicating a vehicle being detected by the program"
-        }
-    ],
-    "draft": [
-        {
-            "name": "Intersection Safety Challenge Stage 1B Data",
-            "description": "Explore the data used in the Intersection Safety Challenge Stage 1B Competition.",
-            "url": "https://datahub.transportation.gov/Roadways-and-Bridges/Intersection-Safety-Challenge-Stage-1B-Training-Da/vq7s-mv3v/about_data",
-            "image": "isc.jpg",
-            "altText": "Traffic lights with a sunset in the background"
         }
     ]
 }
