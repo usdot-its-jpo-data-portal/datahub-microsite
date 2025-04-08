@@ -4,7 +4,7 @@
         {
             "name": "Intersection Safety Challenge Dataset",
             "description": "The Intersection Safety Challenge Dataset features a comprehensive collection of conflict/non-conflict scenario data involving various road users, captured by visual and thermal cameras, LiDAR, and radar sensors under diverse weather and lighting conditions.",
-            "url": "https://datahub.transportation.gov/Roadways-and-Bridges/Intersection-Safety-Challenge-Stage-1B-Training-Da/vq7s-mv3v/about_data",
+            "url": "https://data.transportation.gov/Roadways-and-Bridges/Intersection-Safety-Challenge-Stage-1B-Training-Da/vq7s-mv3v",
             "image": "isc.gif",
             "altText": "Example of image and lidar data from the Intersection Safety Challenge dataset"
         },
