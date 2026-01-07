@@ -1,0 +1,1 @@
+import{e}from"./BWnwzUeo.js";function a(){return{id:e(),name:"",description:""}}function i(){return{id:e(),name:"",datasetIds:[]}}function n(){return{id:e(),title:"",fileName:"",description:""}}export{n as a,i as b,a as c};
