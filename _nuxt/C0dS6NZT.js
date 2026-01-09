@@ -1,0 +1,1 @@
+import r from"./DP1uegi5.js";import{a1 as s,s as e,o as n,w as t,A as c,j as i}from"./CTM-UXwp.js";const l={__name:"ProseCaution",setup(p){const o=s();return(a,u)=>(n(),e(r,{color:"error",icon:i(o).ui.icons.caution},{default:t(()=>[c(a.$slots,"default",{mdcUnwrap:"p"})]),_:3},8,["icon"]))}};export{l as default};

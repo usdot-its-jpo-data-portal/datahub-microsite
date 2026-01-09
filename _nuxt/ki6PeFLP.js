@@ -1,0 +1,1 @@
+import{a1 as c,h as l,c as r,o as p,A as u,n as d,a2 as s}from"./CTM-UXwp.js";const i={base:""},_={__name:"ProseTbody",props:{class:{type:null,required:!1}},setup(e){const a=e,o=c(),t=l(()=>s({extend:s(i),...o.ui?.prose?.tbody||{}}));return(n,m)=>(p(),r("tbody",{class:d(t.value({class:a.class}))},[u(n.$slots,"default")],2))}};export{_ as default};

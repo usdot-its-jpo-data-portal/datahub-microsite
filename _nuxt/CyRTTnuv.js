@@ -1,0 +1,1 @@
+import a from"./DP1uegi5.js";import{a1 as e,s as r,o as t,w as c,A as n,j as p}from"./CTM-UXwp.js";const l={__name:"ProseTip",setup(i){const o=e();return(s,f)=>(t(),r(a,{color:"success",icon:p(o).ui.icons.tip},{default:c(()=>[n(s.$slots,"default",{mdcUnwrap:"p"})]),_:3},8,["icon"]))}};export{l as default};

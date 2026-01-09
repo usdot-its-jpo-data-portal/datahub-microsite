@@ -1,0 +1,1 @@
+import a from"./DP1uegi5.js";import{a1 as r,s,o as e,w as t,A as c,j as i}from"./CTM-UXwp.js";const l={__name:"ProseWarning",setup(p){const n=r();return(o,f)=>(e(),s(a,{color:"warning",icon:i(n).ui.icons.warning},{default:t(()=>[c(o.$slots,"default",{mdcUnwrap:"p"})]),_:3},8,["icon"]))}};export{l as default};
