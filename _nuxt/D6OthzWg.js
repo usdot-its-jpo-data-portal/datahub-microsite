@@ -1,0 +1,1 @@
+import{a3 as c,o as l,c as r,B as p,n as u,k as d,a4 as s}from"./Be4ZCI30.js";const i={base:""},_={__name:"ProseTbody",props:{class:{type:null,required:!1}},setup(e){const a=e,o=c(),t=d(()=>s({extend:s(i),...o.ui?.prose?.tbody||{}}));return(n,m)=>(l(),r("tbody",{class:u(t.value({class:a.class}))},[p(n.$slots,"default")],2))}};export{_ as default};
