@@ -1,0 +1,1 @@
+import{ab as f,k as i,W as l,br as p}from"./Cak8N9vH.js";function V(s,e,u,n,t){const r=f(),o={};for(const a of n)o[a]=i(()=>(t?.[a]!==void 0?l(t[a]):p(e,a))??r.ui?.[s]?.defaultVariants?.[a]??u.defaultVariants?.[a]);return o}export{V as u};
