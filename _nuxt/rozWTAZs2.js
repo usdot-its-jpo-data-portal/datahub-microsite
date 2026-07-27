@@ -1,0 +1,1 @@
+import{t as e}from"./DZqlhcF6.js";function t(){return e({src:`https://d610974da59b.us-east-1.captcha-sdk.awswaf.com/d610974da59b/jsapi.js`,defer:!0,type:`text/javascript`,crossorigin:``})}export{t};
