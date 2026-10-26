@@ -1,1 +1,0 @@
-import{p as e}from"./pMgx97O9.js";function t(){return{id:e(),name:``,description:``}}function n(){return{id:e(),name:``,datasetIds:[]}}function r(){return{id:e(),title:``,fileName:``,description:``}}export{r as n,n as r,t};
